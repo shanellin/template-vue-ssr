@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- use triple mustache for non-HTML-escaped interpolation -->
+  {{{ meta }}}
+  <!-- use double mustache for HTML-escaped interpolation -->
+  <title>{{ title }}</title>
+</head>
+
+<body>
+  <!--vue-ssr-outlet-->
+  <script src="/dist/main.js"></script>
+</body>
+
+</html>
